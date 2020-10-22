@@ -11,11 +11,3 @@ describe('Cards Action Test ', () => {
     });
 });
 
-describe('Cards Detailed Data Test ', () => {
-    it('Getting detailed card data ', () => {
-        const action=Action.Create(MainAction.GET_PARTICULA_PRODUCT_DATA);
-        expect(action).toEqual({
-            type : MainAction.GET_PARTICULA_PRODUCT_DATA
-        });
-    });
-});
